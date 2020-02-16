@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/windowBackground"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/R1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/RL33">
+        <ImageView
+            android:id="@+id/imageView_st"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/image_start"
+            />
+
+        <TextView
+            android:id="@+id/textView_wellcom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView_st"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/app_startext"
+            android:textColor="@android:color/black"
+            android:paddingStart="5dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/ge_ss_two_bold"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_below="@id/textView_wellcom"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <Button
+                    android:id="@+id/BTN_about_us"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/tv_coursesshape"
+                    android:fontFamily="@font/ge_thameen_demibold"
+                    android:gravity="center"
+                    android:text="من نحن "
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btn_nowcourse"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/tv_coursesshape"
+                    android:fontFamily="@font/ge_thameen_demibold"
+                    android:text="برامج التدريب المهني"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btn_lastcours"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/tv_coursesshape"
+                    android:fontFamily="@font/ge_thameen_demibold"
+                    android:text="البرامج الداعمة"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btn_courstoall"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/tv_coursesshape"
+                    android:fontFamily="@font/ge_thameen_demibold"
+                    android:text="مشروع اذهب فاحتطب"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btn_success"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/tv_coursesshape"
+                    android:fontFamily="@font/ge_thameen_demibold"
+                    android:text="إنجازاتنا في عام 2019"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </ScrollView>
+
+           </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RL33"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/windowBackground"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentBottom="true"
+            >
+            <ImageButton
+                android:id="@+id/btn_FACEBOOK"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ic_facebook"
+                android:background="@color/windowBackground"/>
+
+            <ImageButton
+                android:id="@+id/btn_twitter"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/windowBackground"
+                android:src="@drawable/ic_twitter"
+                />
+
+            <ImageButton
+                android:id="@+id/btn_whatsapp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/windowBackground"
+                android:src="@drawable/ic_whatsapp"
+                />
+            <ImageButton
+                android:id="@+id/btn_websıte"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/windowBackground"
+                android:src="@drawable/ic_browser"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

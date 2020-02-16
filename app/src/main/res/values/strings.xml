@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Fayhaa</string>
+    <string name="app_startext" translatable="false"> مرحباً بكم في تطبيق معهد الفيحاء المهني</string>
+
+    <string-array name="courses_array">
+        <item> اختر الدورات من هنا:   </item>
+        <item> دورات الدفعة الرابعة:   </item>
+        <item> دورات الدفعة الثالثة:   </item>
+        <item> دورات الدفعة الثانية:   </item>
+        <item> دورات الدفعة الاولى:   </item>
+        <item> برنامج الدورة القادمة:   </item>
+    </string-array>
+</resources>

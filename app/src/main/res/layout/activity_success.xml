@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground"
+    tools:context=".About_Success">
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pdfview_SUCCES"/>
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical" >-->
+
+<!--            <RelativeLayout-->
+<!--                android:id="@+id/rl_n_grad"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="15dp">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageView_n_g"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    app:srcCompat="@drawable/ic_student" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView_n_g"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@id/imageView_n_g"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:fontFamily="@font/ge_ss_text_bold"-->
+<!--                    android:gravity="center"-->
+<!--                    android:text="عدد المتخرجين من المعهد في دوراته الأربع السابقة"-->
+<!--                    android:textColor="@color/textfont" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView_counter"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/textView_n_g"-->
+
+<!--                    android:layout_centerHorizontal="true"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:fontFamily="@font/ge_ss_two_bold"-->
+<!--                    android:gravity="center"-->
+<!--                    android:hint="عدد المتخرجين"-->
+<!--                    android:textColor="@android:color/holo_red_dark"-->
+<!--                    android:textSize="30sp" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView_counter01"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/textView_n_g"-->
+<!--                    android:layout_centerHorizontal="true"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:layout_toLeftOf="@id/textView_counter"-->
+<!--                    android:fontFamily="@font/ge_ss_two_bold"-->
+<!--                    android:gravity="right"-->
+<!--                    android:text="متدربا"-->
+<!--                    android:textColor="@android:color/holo_red_dark"-->
+<!--                    android:textSize="20sp" />-->
+<!--            </RelativeLayout>-->
+
+<!--            <RelativeLayout-->
+<!--                android:id="@+id/rl_c_n"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="20dp">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageView_c_n"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    app:srcCompat="@drawable/ic_courses" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView_c_n"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@id/imageView_c_n"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:fontFamily="@font/ge_ss_text_bold"-->
+<!--                    android:gravity="center"-->
+<!--                    android:text="عدد الدورات التي اقامها المعهد في دوراته الاربع"-->
+<!--                    android:textColor="@color/textfont" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView_c_counter"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@id/textView_c_n"-->
+<!--                    android:layout_centerHorizontal="true"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:fontFamily="@font/ge_ss_two_bold"-->
+<!--                    android:gravity="center"-->
+<!--                    android:hint="عدد الدورات"-->
+<!--                    android:textColor="@android:color/holo_red_dark"-->
+<!--                    android:textSize="30sp" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView_counter02"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/textView_c_n"-->
+<!--                    android:layout_centerHorizontal="true"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:layout_toLeftOf="@id/textView_c_counter"-->
+<!--                    android:fontFamily="@font/ge_ss_two_bold"-->
+<!--                    android:gravity="right"-->
+<!--                    android:text=" دورة "-->
+<!--                    android:textColor="@android:color/holo_red_dark"-->
+<!--                    android:textSize="20sp" />-->
+<!--            </RelativeLayout>-->
+
+<!--            <RelativeLayout-->
+<!--                android:id="@+id/rl_c_hours"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="20dp">-->
+
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageView_c_h"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    app:srcCompat="@drawable/ic_timer" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView_c_h"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@id/imageView_c_h"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:fontFamily="@font/ge_ss_text_bold"-->
+<!--                    android:gravity="center"-->
+<!--                    android:text="عدد ساعات التدريب حتى الان "-->
+<!--                    android:textColor="@color/textfont" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView_c_h2"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@id/textView_c_h"-->
+<!--                    android:layout_centerHorizontal="true"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:fontFamily="@font/ge_ss_two_bold"-->
+<!--                    android:gravity="center"-->
+<!--                    android:hint="عدد الساعات"-->
+<!--                    android:textColor="@android:color/holo_red_dark"-->
+<!--                    android:textSize="30sp" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView_counter03"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@+id/textView_c_h"-->
+<!--                    android:layout_centerHorizontal="true"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:layout_toLeftOf="@id/textView_c_h2"-->
+<!--                    android:fontFamily="@font/ge_ss_two_bold"-->
+<!--                    android:gravity="right"-->
+<!--                    android:text=" ساعة "-->
+<!--                    android:textColor="@android:color/holo_red_dark"-->
+<!--                    android:textSize="20sp" />-->
+<!--            </RelativeLayout>-->
+
+<!--        </LinearLayout>-->
+<!--    </ScrollView>-->
+
+    <!--    <RelativeLayout-->
+<!--        android:id="@+id/rl_proj"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/rl_c_n"-->
+<!--        android:layout_marginTop="10dp">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView3"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:text="مشاريع التخرج"-->
+<!--            android:textColor="@android:color/holo_red_dark"-->
+<!--            android:textSize="24sp"-->
+<!--            android:fontFamily="@font/ge_ss_text_bold"/>-->
+
+<!--        <ListView-->
+<!--            android:id="@+id/listview_proj"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/textView3"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginBottom="5dp">-->
+
+<!--        </ListView>-->
+<!--    </RelativeLayout>-->
+
+</RelativeLayout>

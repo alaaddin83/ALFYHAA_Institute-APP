@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_group"
+        android:title="فريق البرمجة"
+        android:icon="@drawable/ic_group"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/menu_share"
+        android:title="مشاركة التطبيق"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/menu_suj"
+        android:title="مقترحاتكم"
+        android:icon="@drawable/ic_suj"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/menu_close"
+        android:title="اغلاق التطبيق"
+        android:icon="@drawable/ic_close"
+        app:showAsAction="withText"/>
+
+
+</menu>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground"
+    tools:context=".Courses_List_Activity">
+
+    <ImageView
+        android:id="@+id/imageView_courses_list"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="@drawable/image_start"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView_courses_list"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/BTN_success_5"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/tv_coursesshape"
+                android:fontFamily="@font/ge_thameen_demibold"
+                android:gravity="center"
+                android:text="دورات الدفعة القادمة "
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_success_4"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/tv_coursesshape"
+                android:fontFamily="@font/ge_thameen_demibold"
+                android:text="دورات الدفعة الرابعة"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_success_3"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/tv_coursesshape"
+                android:fontFamily="@font/ge_thameen_demibold"
+                android:text="دورات الدفعة الثالثة"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_success_2"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/tv_coursesshape"
+                android:fontFamily="@font/ge_thameen_demibold"
+                android:text="دورات الدفعة الثانية"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_success_1"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/tv_coursesshape"
+                android:fontFamily="@font/ge_thameen_demibold"
+                android:text="دورات الدفعة الأولى"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

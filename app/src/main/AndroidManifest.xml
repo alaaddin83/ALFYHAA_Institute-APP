@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alaaddin.fayhaa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Courses_List_Activity"
+            android:label="برامج التدريب المهني"></activity>
+        <activity
+            android:name=".About_Hadis_Izhb"
+            android:label="مشروع اذهب فاحتطب" />
+        <activity
+            android:name=".About_Program_For_All"
+            android:label="البرامج الداعمة للدورات" />
+        <activity
+            android:name=".Disply_First_Courses"
+            android:label="الدفعة الاولى من الدورات" />
+        <activity
+            android:name=".Disply_Second_Course"
+            android:label="الدفعة الثانية من الدورات" />
+        <activity
+            android:name=".About_Third_Courses"
+            android:label="بيانات الدورة الثالثة" />
+        <activity
+            android:name=".Disply_Third_courses"
+            android:label="الدفعة الثالثة من الدورات " />
+        <activity
+            android:name=".Developers"
+            android:label="مبرمجي التطبيق" />
+        <activity
+            android:name=".Disply_Forth_Courses"
+            android:label="الدفعة الرابعة من الدورات " />
+        <activity
+            android:name=".About_Success"
+            android:label="الانجازات والاحصاءات"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".About_Forth_Courses"
+            android:label="بيانات الدورة الرابعة" />
+        <activity
+            android:name=".About_Fifth_Courses"
+            android:label="تفاصيل الدورة القادمة " />
+        <activity
+            android:name=".About_Instut"
+            android:label="عن المعهد" />
+        <activity
+            android:name=".MainActivity"
+            android:label="معهد الفيحاء المهني" />
+        <activity
+            android:name=".Splash_Screen"
+            android:label="معهد الفيحاء المهني">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
