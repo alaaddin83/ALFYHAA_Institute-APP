@@ -15,8 +15,7 @@ import java.io.InputStream;
 public class About_Fifth_Courses extends AppCompatActivity {
 
     PDFView pdfView;
-
-    //TextView aboutcourse;
+    TextView aboutcourse;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +23,7 @@ public class About_Fifth_Courses extends AppCompatActivity {
         setContentView(R.layout.activity_about_course__now);
 
         pdfView = (PDFView) findViewById(R.id.pdfview_nowcours);
+        aboutcourse = (TextView) findViewById(R.id.tv_courses5_2020);
 
         pdfView.fromAsset("fifth_courses.pdf").load();
 
